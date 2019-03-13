@@ -10,9 +10,9 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component {
   render() {
     return (
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     );
   }
 }

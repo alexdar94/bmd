@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.menu-header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-header > a:before {
+  width: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.container.home {
+    margin: 0 !important;
+  }
+}
