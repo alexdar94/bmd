@@ -422,7 +422,7 @@ export class Q2 extends Component {
             id="path1009"
           />
           )}
-          {AM === 'N' && [<path
+          {AM === 'P' && [<path
             key="1"
             style={{
               fill: 'none', stroke: '#d101fa', strokeWidth: 0.26458332, strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1,
@@ -438,7 +438,7 @@ export class Q2 extends Component {
               d="m 6.1245388,94.384223 -1.469291,2.301886"
               id="path1035"
             />]}
-          {AM === 'P' && [<path
+          {AM === 'N' && [<path
             key="1"
             style={{
               fill: 'none', stroke: '#d101fa', strokeWidth: 0.26458332, strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1,

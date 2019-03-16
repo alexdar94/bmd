@@ -562,7 +562,7 @@ export class Q4 extends Component {
               }}
             />
             )}
-            {AM === 'N' && [<path
+            {AM === 'P' && [<path
               key="1"
               id="path871"
               d="M 7.7489831,91.837537 2.4563738,92.341779"
@@ -578,7 +578,7 @@ export class Q4 extends Component {
                   fill: 'none', stroke: '#d101ff', strokeWidth: 0.25661191, strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1,
                 }}
               />]}
-            {AM === 'P' && [<path
+            {AM === 'N' && [<path
               key="1"
               id="path879"
               d="m 7.9374999,106.87798 -2.7403274,-3.3073"
