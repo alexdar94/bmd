@@ -25,6 +25,7 @@ class QuestionForm extends React.Component {
                 <Grid.Column width={7}>
                   <Input
                     {...field}
+                    autoComplete="off"
                     value={(value !== undefined && value !== null) ? value : ''}
                     onFocus={() => this.setState({ showMessage: false })}
                     onChange={({ target: { value } }) => {
@@ -128,6 +129,7 @@ const QuestionLayout = ({ questions, history, match: { params: { id } } }) => {
         <Responsive className="menu-header" maxWidth={440}>
           <Menu.Item href="/" header>BMD</Menu.Item>
         </Responsive>
+        <Menu.Item onClick={() => history.push('/')}>Home</Menu.Item>
         {hasPrev && <Menu.Item onClick={() => history.push(`${curr}`)}>Previous</Menu.Item>}
         {hasNext && <Menu.Item position="right" onClick={() => history.push(`${curr + 2}`)}>Next</Menu.Item>}
       </Menu>
