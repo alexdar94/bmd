@@ -24,31 +24,6 @@ export class Q2 extends Component {
           />
           <path
             style={{
-              fill: '#ff0101', stroke: '#000000', strokeWidth: '0.26458332px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: '1', fillOpacity: 1,
-            }}
-            d="m 146.68048,106.68899 3.18709,-5.57514 3.80547,5.57514"
-            id="path30-4"
-          />
-          <circle
-            style={{
-              fill: '#ffcc00', strokeWidth: 0.26458332, stroke: '#000000', strokeOpacity: 1,
-            }}
-            id="path51-1"
-            cx="151.96263"
-            cy="108.2009"
-            r="1.2756697"
-          />
-          <circle
-            style={{
-              fill: '#ffcc00', stroke: '#000000', strokeWidth: 0.26458332, strokeOpacity: 1,
-            }}
-            id="path51-1-5"
-            cx="147.97768"
-            cy="108.2009"
-            r="1.2756697"
-          />
-          <path
-            style={{
               fill: 'none', stroke: '#ff0101', strokeWidth: '0.18712629px', strokeLinecap: 'butt', strokeLinejoin: 'miter', strokeOpacity: 1,
             }}
             d="M 93.772826,96.306812 96.829484,87.43446"

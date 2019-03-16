@@ -136,6 +136,22 @@ export class Q4 extends Component {
             >3
             </tspan>
           </text>
+          <text
+            style={{
+              fontStyle: 'normal', fontWeight: 'normal', fontSize: 8.13383198, lineHeight: 1.25, fontFamily: 'sans-serif', letterSpacing: 0, wordSpacing: 0, fill: '#00fe00', fillOpacity: 1, stroke: 'none', strokeWidth: 0.20334581,
+            }}
+            x="206.2123"
+            y="96.345451"
+            id="text851-3-8"
+            transform="scale(1.002642,0.99736497)"
+          ><tspan
+            id="tspan849-0-8"
+            x="206.2123"
+            y="96.345451"
+            style={{ fill: '#00fe00', fillOpacity: 1, strokeWidth: 0.20334581 }}
+          >4
+           </tspan>
+          </text>
           <rect
             style={{
               fill: '#ff0000', fillOpacity: 1, stroke: '#000000', strokeWidth: 0.34469277, strokeOpacity: 0.94117647,
