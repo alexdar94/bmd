@@ -6,6 +6,7 @@ import { Formik, Field } from 'formik';
 import { Redirect } from 'react-router-dom';
 import isInt from 'validator/lib/isInt';
 import { Space } from '../components';
+import { analytics } from '../config/firebase';
 
 class QuestionForm extends React.Component {
   state = { showMessage: false };
@@ -114,8 +115,10 @@ const QuestionContainer = ({ question }) => (
   </Formik>
 );
 
-const QuestionLayout = ({ questions, history, match: { params: { id } } }) => {
+const QuestionLayout = ({ questions, history, match: { url, params: { id } } }) => {
   if (!isInt(id) || id < 1 || id > questions.length) return <Redirect to="/" />;
+  analytics.logEvent(url);
+
   const curr = id - 1;
   const hasPrev = curr - 1 > -1;
   const hasNext = curr + 1 < questions.length;
